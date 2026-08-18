@@ -21,8 +21,27 @@
     <meta property="twitter:image" content="/brand/favicon-new 10.32.55.png" />
     
     <link rel="icon" type="image/png" href="./brand/favicon-new 10.32.55.png" />
-    <script type="module" crossorigin src="./assets/index-lzl7EBXT.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-Bk89VD0j.css">
+
+    <script>
+      (function restoreSpaRoute(location) {
+        var params = new URLSearchParams(location.search);
+        var redirectPath = params.get("p");
+
+        if (!redirectPath) return;
+
+        var redirectQuery = params.get("q");
+        var restoredUrl = redirectPath.replace(/~and~/g, "&");
+
+        if (redirectQuery) {
+          restoredUrl += "?" + redirectQuery.replace(/~and~/g, "&");
+        }
+
+        restoredUrl += location.hash || "";
+        window.history.replaceState({ adf: true, path: redirectPath }, "", restoredUrl);
+      })(window.location);
+    </script>
+    <script type="module" crossorigin src="./assets/index-BQ74MTRq.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-TZR06T6D.css">
   </head>
   <body>
     <div id="root"></div>
