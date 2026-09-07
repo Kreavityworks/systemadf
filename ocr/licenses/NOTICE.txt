@@ -1,0 +1,12 @@
+Bundled OCR dependencies
+
+Tesseract.js 6.0.1 — Apache-2.0; see tesseract-js-LICENSE.md.
+https://github.com/naptha/tesseract.js
+
+Tesseract.js Core — see tesseract-js-core-LICENSE.
+https://github.com/naptha/tesseract.js-core
+
+English traineddata is distributed by @tesseract.js-data/eng 1.0.0.
+Its upstream npm package declares MIT and does not include a separate LICENSE
+file. Original package metadata, authors and source URL are preserved in
+eng-package.json. Source: https://github.com/naptha/tessdata
