@@ -1,3 +1,3 @@
-SystemADF v2.14.0
-QR audit history · shared content calendar · session module access
-Build source revision 2026-09-07
+SystemADF v2.17.7
+Full project — Android, iOS, Windows, MacBook app options
+Source revision 2026-09-08

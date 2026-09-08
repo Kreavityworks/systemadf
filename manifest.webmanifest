@@ -1,0 +1,15 @@
+{
+  "id": "/",
+  "name": "SystemADF",
+  "short_name": "SystemADF",
+  "description": "Design, content, KOL and office inventory for the SystemADF team.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f5f3",
+  "theme_color": "#f5f5f3",
+  "icons": [
+    { "src": "/app-icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/app-icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
